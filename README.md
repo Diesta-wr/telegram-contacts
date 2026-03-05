@@ -1,16 +1,38 @@
-# React + Vite
+ Telegram Contacts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 
-Currently, two official plugins are available:
+ О ПРОЕКТЕ
+Приложение для просмотра контактов в стиле Telegram. Загружает данные с API, позволяет искать и сортировать контакты.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ФУНКЦИОНАЛ
+-  Загрузка пользователей с JSONPlaceholder API
+-  Отображение в виде карточек (имя, email, город, телефон)
+-  Поиск по имени
+-  Сортировка по имени или городу
+-  Индикатор загрузки
+-  Два режима отображения (сетка/список)
+-  Адаптивный дизайн как в Telegram
 
-## React Compiler
+ ТЕХНОЛОГИИ
+- React - библиотека для интерфейса
+- CSS - стилизация в стиле Telegram
+- Vite - быстрая сборка проекта
+- Git - контроль версий
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ 🚀 УСТАНОВКА И ЗАПУСК
 
-## Expanding the ESLint configuration
+```bash
+ Клонировать репозиторий
+git clone https://github.com/Diesta-wr/telegram-contacts.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Перейти в папку проекта
+cd telegram-contacts
+
+ Установить зависимости
+npm install
+
+ Запустить проект
+npm run dev
