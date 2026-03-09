@@ -9,10 +9,7 @@
 
 ---
 
-## 🖼️ Превью
 
-<!-- Замени ссылку ниже на скриншот твоего проекта -->
-![Demo](https://via.placeholder.com/800x500/0f0f0f/2AABEE?text=Telegram+Contacts+App+Preview)
 
 *Тёмная тема, плавные анимации и адаптивный дизайн*
 
