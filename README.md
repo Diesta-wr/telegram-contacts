@@ -1,32 +1,48 @@
-git commit -m "feat: полная миграция на Tailwind CSS
+# 📱 Telegram Contacts App
 
-🎨 Основные изменения:
-- ✅ Удалены все CSS файлы (App.css, UserCard.css, Loader.css, ErrorMessage.css)
-- ✅ Все компоненты переведены на утилитарные классы Tailwind
-- ✅ Настроена конфигурация tailwind.config.js с кастомными цветами и анимациями
-- ✅ Добавлен postcss.config.js для интеграции с Vite
+[![React](https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.19-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Vite](https://img.shields.io/badge/Vite-7.3.1-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-🎯 Что реализовано:
-• Тёмная тема в стиле Telegram (цвета: #2AABEE, #8774E1, #31B545)
-• Анимации: плавающие круги, появление карточек, спиннер загрузки
-• Hover-эффекты на карточках контактов
-• Адаптивный дизайн (mobile-first)
-• Градиентные кнопки и аватары
-• Кастомный скроллбар
+> 🎨 Современное приложение для отображения контактов в стиле Telegram с полной миграцией на **Tailwind CSS**
 
-📦 Зависимости:
-- tailwindcss@3.4.19
-- postcss@8.5.8  
-- autoprefixer@10.4.27
+---
 
-🔧 Технические детали:
-- Использован Tailwind CSS v3 (стабильная версия)
-- Настроены кастомные анимации через keyframes
-- Создана цветовая палитра в theme.extend.colors
-- Оптимизирована структура компонентов
+## 🖼️ Превью
 
-✨ Результат:
-- Дизайн сохранён на 100%
-- Удалено 4 CSS файла (~400 строк кода)
-- Улучшена производительность (Tree Shaking)
-- Упрощена поддержка и масштабирование"
+<!-- Замени ссылку ниже на скриншот твоего проекта -->
+![Demo](https://via.placeholder.com/800x500/0f0f0f/2AABEE?text=Telegram+Contacts+App+Preview)
+
+*Тёмная тема, плавные анимации и адаптивный дизайн*
+
+---
+
+## ✨ Особенности
+
+| Фича | Описание |
+|------|----------|
+| 🎨 **Tailwind CSS** | Все стили переведены на утилитарные классы |
+| 🌙 **Тёмная тема** | Глубокие цвета в стиле Telegram (#0f0f0f, #1f1f1f) |
+| ✨ **Анимации** | Плавающие градиенты, появление карточек, спиннер |
+| 📱 **Адаптив** | Корректное отображение на мобильных и десктопах |
+| 🔍 **Поиск** | Фильтрация по имени и городу в реальном времени |
+| 🔄 **Сортировка** | Сортировка по имени или городу |
+| 🃏 **Карточки** | Grid/List режимы с ховер-эффектами |
+
+---
+
+## 🚀 Быстрый старт
+
+```bash
+# 1. Клонируй репозиторий
+git clone https://github.com/твой-юзер/твой-репо.git
+
+# 2. Перейди в папку
+cd telegram-contacts
+
+# 3. Установи зависимости
+npm install
+
+# 4. Запусти проект
+npm run dev
